@@ -116,3 +116,7 @@ The IPv6 loopback address is:
 | `-o`  | Stops after receiving the first successful reply   | `ping -o google.com`      |
 
 ---
+
+
+## Summary of Ping
+>Ping sends an ICMP Echo Request to a hostname or IP address and waits for an Echo Reply. It helps determine whether a destination is reachable, how long the round trip takes, and whether packets are being lost. A failed ping does not automatically mean the destination is offline because ICMP traffic may be blocked.
